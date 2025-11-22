@@ -88,9 +88,9 @@ def generateClientBill():
     return "Client Bill Generated Successfully"
 
 def main():
-    employee_bulk_file = "Employee.csv"
-    client_bulk_file = "Clients.csv"
-    task_bulk_file = "tasks.csv"
+    employee_bulk_file = r"Bulk_upload files/Employee.csv"
+    client_bulk_file = r"Bulk_upload files/Clients.csv"
+    task_bulk_file = r"Bulk_upload files/tasks.csv"
     while True:
         print("-> Analytic American Association <-".center(80, "-"))
         print(" ".rjust(30), "1. Employee")
